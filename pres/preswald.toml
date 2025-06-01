@@ -1,0 +1,23 @@
+[project]
+title = "Personality Insights Dashboard"
+version = "0.1.0"
+port = 8501
+slug = "personality-insights"
+entrypoint = "hello.py"
+
+[branding]
+name = "Personality Insights"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#4B9CD3"
+backgroundColor = "#F8F9FA"
+textColor = "#212529"
+accentColor = "#17A2B8"
+
+[data.personality_dataset]
+type = "csv"
+path = "data/personality_dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
